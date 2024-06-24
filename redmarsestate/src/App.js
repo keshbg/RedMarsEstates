@@ -8,20 +8,31 @@ import Lettings from './components/Services/Lettings/lettings';
 import Mortgages from './components/Services/Mortgages/mortgages';
 import Solicitor from './components/Services/Solicitor/solicitor';
 import Contact from './components/Contact/contact';
+import Footer from './components/Footer/footer';
+import TermsAndConditions from './components/PolicyAndTermsConditions/TermsAndConditions';
+import Policy from './components/PolicyAndTermsConditions/Policy';
+
 
 function App() {
   return (
     <Router>
-      <Header />
-      <Routes>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/services/housefindings" component={HouseFindings} />
-        <Route path="/services/mortgages" component={Mortgages} />
-        <Route path="/services/lettings" component={Lettings} />
-        <Route path="/services/solicitor" component={Solicitor} />
-        <Route path="/contact" component={Contact} />
-      </Routes>
+      <div className="flex flex-col min-h-screen">
+        <Header />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services/housefindings" element={<HouseFindings />} />
+            <Route path="/services/mortgages" element={<Mortgages />} />
+            <Route path="/services/lettings" element={<Lettings />} />
+            <Route path="/services/solicitor" element={<Solicitor />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/policy" element={<Policy />} />
+            <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
     </Router>
   );
 }
