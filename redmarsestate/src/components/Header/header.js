@@ -29,19 +29,19 @@ const Header = () => {
           <img 
             src={require('../../assets/RED MARS LOGO.png')}
             alt="Profile" 
-            className="w-16 h-16 object-cover mr-2" // Adjusted size and added margin
+            className="w-16 h-16 object-cover mr-2"
           />
           <Link to="/">Reds Mars Estates</Link>
         </div>
         <nav className="hidden md:flex space-x-20">
-          <Link to="/" className="hover:text-gray-300">Home</Link>
-          <Link to="/about" className="hover:text-gray-300">About</Link>
+          <Link to="/" className="hover:text-gray-300 font-mono text-xl">HOME</Link>
+          <Link to="/about" className="hover:text-gray-300 font-mono text-xl">ABOUT</Link>
           <div className="relative" ref={dropdownRef}>
             <button
               onClick={() => setIsServicesOpen(!isServicesOpen)}
-              className="hover:text-gray-300 focus:outline-none flex items-center"
+              className="hover:text-gray-300 focus:outline-none flex items-center font-mono text-xl"
             >
-              Services <span className="ml-1">▾</span>
+              SERVICES <span className="ml-1">▾</span>
             </button>
             {isServicesOpen && (
               <div className="absolute bg-white text-black mt-2 rounded shadow-lg z-50">
@@ -52,7 +52,7 @@ const Header = () => {
               </div>
             )}
           </div>
-          <Link to="/contact" className="hover:text-gray-300">Contact</Link>
+          <Link to="/contact" className="hover:text-gray-300 font-mono text-xl">CONTACT</Link>
         </nav>
         <div className="md:hidden">
           <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none">
