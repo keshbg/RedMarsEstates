@@ -10,7 +10,7 @@ const Footer = () => {
             <h3 className="font-bold text-lg mb-2">Contact Now</h3>
             <p><span role="img" aria-label="address">📍</span>Aldershot, UK</p>
             <p><span role="img" aria-label="mobile">📱</span>+447919492312</p>
-            <p><span role="img" aria-label="email">📧</span> info@redmarsestate.com.uk</p>
+            <p><span role="img" aria-label="email">📧</span> info@redmarsestate.co.uk</p>
           </div>
           <div className="w-full md:w-1/3 mb-4 md:mb-0">
             <h3 className="font-bold text-lg mb-2">Mortgage Services</h3>

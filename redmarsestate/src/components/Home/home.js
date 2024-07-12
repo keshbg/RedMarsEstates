@@ -17,24 +17,17 @@ const Home = () => {
       >
         <div className="relative h-[50vh] m-0 p-0"> 
           <img src={require('../../assets/1.jpg')} alt="Slide 1" className="h-full w-full object-cover" />
-          <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
+          {/* MARK: Title and rent hidden
+           <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
             <h2 className="text-3xl font-bold">Aldershot</h2>
             <p className="text-lg">Rent from: £800</p>
-          </div>
+          </div> */}
         </div>
         <div className="relative h-[50vh] m-0 p-0"> 
           <img src={require('../../assets/2.jpg')} alt="Slide 2" className="h-full w-full object-cover" />
-          <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
-            <h2 className="text-3xl font-bold">Farnborough</h2>
-            <p className="text-lg">Rent from: £1200</p>
-          </div>
         </div>
         <div className="relative h-[50vh] m-0 p-0"> 
           <img src={require('../../assets/4.jpg')} alt="Slide 3" className="h-full w-full object-cover" />
-          <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
-            <h2 className="text-3xl font-bold">Camberley</h2>
-            <p className="text-lg">Rent from: £1000</p>
-          </div>
         </div>
       </Carousel>
 
