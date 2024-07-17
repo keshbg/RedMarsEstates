@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/RedMarsEstates/static/css/main.c43725c3.css",
-    "main.js": "/RedMarsEstates/static/js/main.0546ae4b.js",
+    "main.css": "/RedMarsEstates/static/css/main.25fad29c.css",
+    "main.js": "/RedMarsEstates/static/js/main.806a63f8.js",
     "static/js/453.7791e98c.chunk.js": "/RedMarsEstates/static/js/453.7791e98c.chunk.js",
     "static/media/1.jpg": "/RedMarsEstates/static/media/1.b727e8fa1451a767376c.jpg",
     "static/media/2.jpg": "/RedMarsEstates/static/media/2.c2f89f25f4f6d90f5d0e.jpg",
@@ -13,12 +13,12 @@
     "static/media/solicitor1.png": "/RedMarsEstates/static/media/solicitor1.fe8577670a233c8296a1.png",
     "static/media/fullmanaged.jpg": "/RedMarsEstates/static/media/fullmanaged.11683be541504f8876f9.jpg",
     "index.html": "/RedMarsEstates/index.html",
-    "main.c43725c3.css.map": "/RedMarsEstates/static/css/main.c43725c3.css.map",
-    "main.0546ae4b.js.map": "/RedMarsEstates/static/js/main.0546ae4b.js.map",
+    "main.25fad29c.css.map": "/RedMarsEstates/static/css/main.25fad29c.css.map",
+    "main.806a63f8.js.map": "/RedMarsEstates/static/js/main.806a63f8.js.map",
     "453.7791e98c.chunk.js.map": "/RedMarsEstates/static/js/453.7791e98c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c43725c3.css",
-    "static/js/main.0546ae4b.js"
+    "static/css/main.25fad29c.css",
+    "static/js/main.806a63f8.js"
   ]
 }
