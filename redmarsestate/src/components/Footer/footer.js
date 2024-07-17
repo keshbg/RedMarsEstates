@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaTiktok } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -31,9 +32,9 @@ const Footer = () => {
         <div className="md:flex md:justify-between mt-4">
           <div>
             <ul className="flex justify-center md:justify-start space-x-4 mb-4">
-              <li><a href="/policy" className="hover:text-gray-300">Policy</a></li>
-              <li><a href="/terms-and-conditions" className="hover:text-gray-300">Terms and Conditions</a></li>
-              <li><a href="/contact" className="hover:text-gray-300">Contact Us</a></li>
+              <li><Link to="/policy" className="hover:text-gray-300">Policy</Link></li>
+              <li><Link to="/terms-and-conditions" className="hover:text-gray-300">Terms and Conditions</Link></li>
+              <li><Link to="/contact" className="hover:text-gray-300">Contact Us</Link></li>
             </ul>
             <ul className="flex justify-center md:justify-start space-x-4 mb-4">
               <li>
@@ -60,7 +61,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="text-center mt-4">
-          <p>© 2024 RedMars Estates Ltd</p>
+          <p>© 2024 KRy Inc, Red Mars Estates Ltd</p>
         </div>
         
       </div>
