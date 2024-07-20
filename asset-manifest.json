@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1760141.css",
-    "main.js": "/static/js/main.6c27f1a6.js",
+    "main.css": "/static/css/main.d0c348ee.css",
+    "main.js": "/static/js/main.b47935a4.js",
     "static/js/453.7791e98c.chunk.js": "/static/js/453.7791e98c.chunk.js",
     "static/media/1.jpg": "/static/media/1.b727e8fa1451a767376c.jpg",
     "static/media/2.jpg": "/static/media/2.c2f89f25f4f6d90f5d0e.jpg",
@@ -12,13 +12,15 @@
     "static/media/RED MARS LOGO.png": "/static/media/RED MARS LOGO.52a53b2625885a1293fd.png",
     "static/media/solicitor1.png": "/static/media/solicitor1.fe8577670a233c8296a1.png",
     "static/media/fullmanaged.jpg": "/static/media/fullmanaged.11683be541504f8876f9.jpg",
+    "static/media/ico.jpeg": "/static/media/ico.4ca6c9ad4732ee795e0b.jpeg",
+    "static/media/prs.png": "/static/media/prs.3007ff1762014f27cf97.png",
     "index.html": "/index.html",
-    "main.f1760141.css.map": "/static/css/main.f1760141.css.map",
-    "main.6c27f1a6.js.map": "/static/js/main.6c27f1a6.js.map",
+    "main.d0c348ee.css.map": "/static/css/main.d0c348ee.css.map",
+    "main.b47935a4.js.map": "/static/js/main.b47935a4.js.map",
     "453.7791e98c.chunk.js.map": "/static/js/453.7791e98c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1760141.css",
-    "static/js/main.6c27f1a6.js"
+    "static/css/main.d0c348ee.css",
+    "static/js/main.b47935a4.js"
   ]
 }
