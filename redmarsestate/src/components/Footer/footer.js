@@ -1,6 +1,8 @@
 import React from 'react';
 import { FaFacebookF, FaInstagram, FaTiktok } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import prs from '../../assets/prs.png';
+import ico from '../../assets/ico.jpeg';
 
 const Footer = () => {
   return (
@@ -11,7 +13,7 @@ const Footer = () => {
             <h3 className="font-bold text-lg mb-2">Contact Now</h3>
             <p><span role="img" aria-label="address">📍</span>Aldershot, UK</p>
             <p><span role="img" aria-label="mobile">📱</span>+447919492312</p>
-            <p><span role="img" aria-label="email">📧</span> info@redmarsestate.co.uk</p>
+            <p><span role="img" aria-label="email">📧</span> info@redmarsestates.co.uk</p>
           </div>
           <div className="w-full md:w-1/3 mb-4 md:mb-0">
             <h3 className="font-bold text-lg mb-2">Mortgage Services</h3>
@@ -24,9 +26,17 @@ const Footer = () => {
           </div>
           <div className="w-full md:w-1/3 mb-4 md:mb-0">
             <h3 className="font-bold text-lg mb-2">Opening Hours</h3>
-            <p>Mon - Fri: 9am to 6pm</p>
-            <p>Sat: 10am to 4pm</p>
-            <p>Sun: Closed</p>
+            <div className="flex flex-col items-center md:items-start">
+              <div className="text-center md:text-left">
+                <p>Mon - Fri: 9am to 6pm</p>
+                <p>Sat: 10am to 4pm</p>
+                <p>Sun: Closed</p>
+              </div>
+              <div className="flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-4 mt-4">
+                <img src={ico} alt="Image 1" className="w-28 h-28" />
+                <img src={prs} alt="Image 2" className="w-28 h-28" />
+              </div>
+            </div>
           </div>
         </div>
         <div className="md:flex md:justify-between mt-4">
@@ -63,7 +73,6 @@ const Footer = () => {
         <div className="text-center mt-4">
           <p>© 2024 KRy Inc, Red Mars Estates Ltd</p>
         </div>
-        
       </div>
     </footer>
   );

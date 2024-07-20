@@ -95,7 +95,7 @@ const Contact = () => {
           <h2 className="text-2xl font-bold mb-4">Office Information</h2>
             <p className='mb-4 text-xl'><span role="img" aria-label="address">Address📍 :</span> Aldershot, UK</p>
             <p className='mb-4 text-xl'><span role="img" aria-label="mobile">Phone 📱 :</span> +447919492312</p>
-            <p className='mb-8 text-xl'><span role="img" aria-label="email">Email 📧 :</span> info@redmarsestate.co.uk</p>
+            <p className='mb-8 text-xl'><span role="img" aria-label="email">Email 📧 :</span> info@redmarsestates.co.uk</p>
           <div className="w-full md:w-1/3 mb-4 md:mb-0 ">
             <h3 className="font-bold text-lg mb-2">Opening Hours</h3>
             <p className='mb-4 text-xl'>Mon - Fri: 9am to 6pm</p>
